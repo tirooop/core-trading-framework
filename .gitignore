@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Data
+*.csv
+*.json
+data/historical/
+data/cache/
+data/models/
+
+# Temporary files
+temp_*/
+*.tmp
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys (Important!)
+config/*.key
+config/secrets.yaml
+.env
+*.env
+
+# Database
+*.db
+*.sqlite
+
+# Charts and images
+*.png
+*.jpg
+*.jpeg
+charts/
+temp_charts/
+
+# Audio
+temp_audio/
+*.wav
+*.mp3
+
+# Backup
+backup_*/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyTorch
+*.pth
+*.pt
+
+# TensorFlow
+*.h5
+*.hdf5
+
+# Model files
+models/*.pkl
+models/*.joblib
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
