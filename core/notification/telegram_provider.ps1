@@ -56,8 +56,8 @@ function Get-TelegramConfig {
     
     # 如果所有配置文件都失败，使用默认配置
     return @{
-        botToken = "7840040841:AAG5Yj8-wgOU4eICkA5ba0e17EIzyPWP088"
-        chatId = "6145125455"
+        botToken = "YOUR_BOT_TOKEN_HERE"
+        chatId = "YOUR_CHAT_ID_HERE"
     }
 }
 
